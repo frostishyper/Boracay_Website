@@ -1,2 +1,16 @@
 # Boracay_Website
-Boracay Website Of Group 5 For EMTECH SY2023-2024 (For Educational Purpose Only)
+
+Website Of Group 5 ICT PYTHON For EmTech SY 2023-2024 (For Educational Purposes Only)
+
+## Table of Contents
+
+## About
+
+This Project Is A Simple Front End For Emtech Groupings 
+
+## Features
+
+- HTML
+- CSS
+  
+This project is licensed under the MIT License - see the [LICENSE]
