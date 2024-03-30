@@ -6,20 +6,19 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Boracay</title>
-        <link rel="stylesheet" href="../Styles/Boracay.css">
-        <link rel="stylesheet" href="../Styles/css/all.css">
+        <link rel="icon" href="./Media/island.ico">
+        <link rel="stylesheet" href="./Styles/Boracay.css">
+        <link rel="stylesheet" href="./Styles/css/all.css">
+        <script src="./Scripts/Boracay.js"></script>
     </head>
 
     <body>
         <div class="Panel-1">
             <div class="Nav">
                 <ul>
-                    <li>Home</li>
-                    <li>About</li>
-                    <li>Blog</li>
-                    <li>Contact</li>
+                    <li id="Contacts-Link">Contact</li>
                 </ul>
-                <button>Next Beach</button>
+                <button id="Home-Btn">Home</button>
             </div>
             <div class="Heading">
                 <h1>Indulge in luxurious comfort in Boracay</h1>
@@ -38,10 +37,10 @@
                     vibrant nightlife, and relaxation opportunities. Boracay offers a range of accommodations, from luxury resorts to budget-friendly guesthouses, 
                     making it accessible to travelers with various preferences and budgets.
                 </p>
-                <button>Learn More</button>
+                <button id="Learn-Btn">Learn More</button>
             </div>
             <div class="About-Image">
-                <img src="../Media/BoracayAbout.jpg">
+                <img src="./Media/BoracayAbout.jpg">
             </div>
         </div>
         <div class="Rooms">
@@ -64,7 +63,7 @@
                     <h1>₱2000</h1>
                 </div>
             </div>
-            <button>View More Rooms</button>
+            <button id="Rooms-Btn">View More Rooms</button>
         </div>
         <div class="Banner">
             <div class="Banner-Main">
@@ -77,7 +76,7 @@
                     this idyllic destination offers an endless playground for aquatic enthusiasts of all ages. Explore vibrant coral reefs teeming with marine life, embark on exhilarating snorkeling expeditions, or glide across the surface on a paddleboard, 
                     embracing the serenity of the open sea. Experience the ultimate aquatic escape in this haven of tranquility, where every moment spent in the water is a blissful celebration of nature's wonders.
                 </p>
-                <button>More Activities</button>
+                <button id="Activities-Btn">More Activities</button>
             </div>
         </div>
         <div class="Services">
@@ -92,15 +91,15 @@
                         From tantalizing seafood caught fresh from the azure waters to sizzling street food bursting with flavor, 
                         the island offers a gastronomic journey like no other. 
                     </p>
-                    <button>Explore</button>
+                    <button id="Cuisine-Btn">Explore</button>
                 </div>
                 <div class="Service-Img">
-                    <img src="../Media/BoracayCuisine.jpg">
+                    <img src="./Media/BoracayCuisine.jpg">
                 </div>
             </div>
             <div class="Service2">
                 <div class="Service-Img">
-                    <img src="../Media/BoracaySpa.jpg">
+                    <img src="./Media/BoracaySpa.jpg">
                 </div>
                 <div class="Service-Content">
                     <p>Spa & Wellness</p>
@@ -108,7 +107,7 @@
                         Unwind in lavish spa resorts offering holistic treatments tailored to revitalize the mind, body, and soul, 
                         or immerse yourself in the healing powers of natural ingredients in secluded wellness retreats nestled amid lush tropical gardens.
                     </p>
-                    <button>Explore</button>
+                    <button id="Spa-Btn">Explore</button>
                 </div>
             </div>
             <div class="Service3">
@@ -119,19 +118,266 @@
                         From cozy beachfront bistros to quaint hideaways tucked along bustling streets, Boracay boasts an eclectic mix of cafes catering 
                         to every palate and preference. 
                     </p>
-                    <button>Explore</button>
+                    <button id="Cafe-Btn">Explore</button>
                 </div>
                 <div class="Service-Img">
-                    <img src="../Media/BoracayCafe.jpg">
+                    <img src="./Media/BoracayCafe.jpg">
                 </div>
             </div>
         </div>
         <div class="Ratings">
-            
+            <div class="Ratings-Scroller">
+                <div class="Rating">
+                    <div class="Rating-Content">
+                        <div class="Star-Rating">
+                            <i class="fa-solid fa-star Active"></i>
+                            <i class="fa-solid fa-star Active"></i>
+                            <i class="fa-solid fa-star Active"></i>
+                            <i class="fa-solid fa-star Active"></i>
+                            <i class="fa-solid fa-star Active"></i>
+                        </div>
+                        <p class="Quote">
+                            "I left my heart in beautiful Boracay."
+                        </p>
+                        <p class="Review">
+                            After experiencing the breathtaking beauty of Boracay, I'm utterly enchanted. The island's pristine beaches, 
+                            framed by crystal-clear waters, offered a sanctuary where time seemed to stand still. Days were filled with exhilarating adventures 
+                            - from snorkeling among colorful marine life to savoring mouthwatering local delicacies. But it wasn't just the activities; it was the 
+                            sense of peace and rejuvenation that enveloped me. Boracay has woven its magic into my being, leaving me longing for more of its natural 
+                            splendor and soul-stirring moments.
+                        </p>
+                        <div class="Reviewer">
+                            <img src="./Media/BoracayMan1.jpg">
+                            <div class="Reviewer-Info">
+                                <p class="info">Darwin</p>
+                                <p class="info">Australia</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="Rating">
+                    <div class="Rating-Content">
+                        <div class="Star-Rating">
+                            <i class="fa-solid fa-star Active"></i>
+                            <i class="fa-solid fa-star Active"></i>
+                            <i class="fa-solid fa-star Active"></i>
+                            <i class="fa-solid fa-star Active"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <p class="Quote">
+                            "Great island - a bit crowded."
+                        </p>
+                        <p class="Review">
+                            Exploring the island of Boracay was an exhilarating experience, offering a delightful blend of natural beauty and vibrant energy. 
+                            Despite the captivating allure of its pristine beaches and stunning vistas, I couldn't help but notice the bustling crowds that 
+                            occasionally detracted from the tranquility. Nevertheless, the island's charm prevailed, and I found myself enchanted by its lively 
+                            atmosphere and diverse offerings.
+                        </p>
+                        <div class="Reviewer">
+                            <img src="./Media/BoracayMan2.jpg">
+                            <div class="Reviewer-Info">
+                                <p class="info">KrangJR</p>
+                                <p class="info">Norway</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="Rating">
+                    <div class="Rating-Content">
+                        <div class="Star-Rating">
+                            <i class="fa-solid fa-star Active"></i>
+                            <i class="fa-solid fa-star Active"></i>
+                            <i class="fa-solid fa-star Active"></i>
+                            <i class="fa-solid fa-star Active"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <p class="Quote">
+                            "Fun, cheap, but the world's best?"
+                        </p>
+                        <p class="Review">
+                            Having recently explored Boracay, I found it to be a captivating destination filled with an abundance of fun and affordable experiences. 
+                            The island's vibrant atmosphere and diverse array of activities made it an ideal getaway for adventurers and budget-conscious travelers alike. 
+                            However, amidst the excitement, I couldn't help but ponder the validity of its claim as the world's best
+                        </p>
+                        <div class="Reviewer">
+                            <img src="./Media/BoracayMan3.webp">
+                            <div class="Reviewer-Info">
+                                <p class="info">Bradley D</p>
+                                <p class="info">USA</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="Rating">
+                    <div class="Rating-Content">
+                        <div class="Star-Rating">
+                            <i class="fa-solid fa-star Active"></i>
+                            <i class="fa-solid fa-star Active"></i>
+                            <i class="fa-solid fa-star Active"></i>
+                            <i class="fa-solid fa-star Active"></i>
+                            <i class="fa-solid fa-star Active"></i>
+                        </div>
+                        <p class="Quote">
+                            "Absolutely gorgeous."
+                        </p>
+                        <p class="Review">
+                            Mesmerized by the sheer beauty of Boracay, I found myself utterly captivated by its charm and allure. 
+                            Every corner of the island seemed to exude a sense of tranquility and serenity, leaving me in awe of its natural splendor. 
+                            From the pristine white sands to the crystal-clear waters that gently lapped against the shore, Boracay truly lived up to 
+                            its reputation as a tropical paradise.
+                        </p>
+                        <div class="Reviewer">
+                            <img src="./Media/BoracayGirl1.webp">
+                            <div class="Reviewer-Info">
+                                <p class="info">AlaskaChick66</p>
+                                <p class="info">USA</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="Rating">
+                    <div class="Rating-Content">
+                        <div class="Star-Rating">
+                            <i class="fa-solid fa-star Active"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <p class="Quote">
+                            "这个度假村太可恶了！"
+                        </p>
+                        <p class="Review">
+                            我去过的最糟糕的地方之一
+                            首先，他们的服务简直糟透了员工态度恶劣，完全不愿意帮助客人。我要求换房间，他们居然毫不客气地拒绝了而且，我发现他们的设施根本不如宣传的那样豪华。
+                            房间脏兮兮的，床单甚至有污渍！这是何等的无耻
+                            其次，食物质量低劣得令人发指早餐简直就是一场灾难食物味道难以忍受，而且服务员态度恶劣。难道他们不明白顾客才是他们的生存根本吗？
+                        </p>
+                        <div class="Reviewer">
+                            <img src="./Media/BoracayMan4.png">
+                            <div class="Reviewer-Info">
+                                <p class="info">Bak Lao Ko Huang</p>
+                                <p class="info">China</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="Rating">
+                    <div class="Rating-Content">
+                        <div class="Star-Rating">
+                            <i class="fa-solid fa-star Active"></i>
+                            <i class="fa-solid fa-star Active"></i>
+                            <i class="fa-solid fa-star Active"></i>
+                            <i class="fa-solid fa-star Active"></i>
+                            <i class="fa-solid fa-star Active"></i>
+                        </div>
+                        <p class="Quote">
+                            "Bussin Fr Fr."
+                        </p>
+                        <p class="Review">
+                            Yo, let me tell you straight up, Boracay was straight-up bussin' fr fr! Like, no cap, it was lit AF. 
+                            From the moment I stepped foot on that island, I knew it was gonna be vibes for days. The beaches? Bro, 
+                            they were on another level—straight fire, with them crystal-clear waters and soft, powdery sand. 
+                            And don't even get me started on the food scene, fam.
+                        </p>
+                        <div class="Reviewer">
+                            <img src="./Media/Me.jpg">
+                            <div class="Reviewer-Info">
+                                <p class="info">Frostishyper</p>
+                                <p class="info">Japan</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="Rating">
+                    <div class="Rating-Content">
+                        <div class="Star-Rating">
+                            <i class="fa-solid fa-star Active"></i>
+                            <i class="fa-solid fa-star Active"></i>
+                            <i class="fa-solid fa-star Active"></i>
+                            <i class="fa-solid fa-star Active"></i>
+                            <i class="fa-solid fa-star Active"></i>
+                        </div>
+                        <p class="Quote">
+                            "Big W Fr."
+                        </p>
+                        <p class="Review">
+                            Okay, so let me spill the tea on Boracay—it's a big W, fr! Like, no cap, it's an absolute vibe. From the moment I touched down, 
+                            I knew this place was gonna be lit, and boy, was I right! The vibes here are unmatched, with breathtaking views and Insta-worthy 
+                            spots at every turn. And let's talk about the activities, fam. From water sports to beachside chill sessions, Boracay's got it all. 
+                            I'm talking jet skiing, parasailing— you name it, they got it.
+                        </p>
+                        <div class="Reviewer">
+                            <img src="./Media/Jabez.jpg">
+                            <div class="Reviewer-Info">
+                                <p class="info">NeriShin</p>
+                                <p class="info">Japan</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="Rating">
+                    <div class="Rating-Content">
+                        <div class="Star-Rating">
+                            <i class="fa-solid fa-star Active"></i>
+                            <i class="fa-solid fa-star Active"></i>
+                            <i class="fa-solid fa-star Active"></i>
+                            <i class="fa-solid fa-star Active"></i>
+                            <i class="fa-solid fa-star Active"></i>
+                        </div>
+                        <p class="Quote">
+                            "Me and my Gf had a wonderful time here"
+                        </p>
+                        <p class="Review">
+                            Me and my gf jessielyn had a wonderful time here. This was place was bussin we had a wonderful time in general
+                        </p>
+                        <div class="Reviewer">
+                            <img src="./Media/Juls.jpg">
+                            <div class="Reviewer-Info">
+                                <p class="info">Mijuisfuji</p>
+                                <p class="info">Japan</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="Events">
+            <div class="Events-Heading">
+                <p>Weekly Events</p>
+            </div>
+            <div class="Event-Collage">
+                <div class="Event1 Event">
+                    <h2>5/19/2024</h2>
+                    <h1>Explore Nature & Resort </h1>
+                </div>
+                <div class="Event2 Event">
+                    <h2>6/18/2024 </h2>
+                    <h1>Rest & Relaxation</h1>
+                </div>
+            </div>
+            <button id="Events-Btn">View More Events</button>
         </div>
         <footer>
-
+            <div class="Links">
+                <div class="Socials">
+                    <h1>Socials</h1>
+                    <div class="Social" id="Link-Github">
+                        <i class="fa-brands fa-github"></i>
+                        <p>Github</p>
+                    </div>
+                </div>
+            </div>
+            <div class="Bottom-Bar">
+                <p class="Copyright">
+                    © 2024 All rights reserved.
+                </p>
+                <p class="Privacy">
+                    Created By Frostishyper
+                </p>
+            </div>
         </footer>
+
     </body>
 
 </html>
