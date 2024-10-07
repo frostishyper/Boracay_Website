@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0 0;
+    padding: 0 0;
+    font-family: "Oswald", system-ui;
+}
+
+.Header {
+    background-color: #212121;
+    height: 10vh;
+    width: 100vw;
+}
+
+.Header-Container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+
+.Title {
+    background-color: #212121;
+    height: 100%;
+    width: 20%;
+}
+
+.Title-Container {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.Title-Container h1 {
+    color: #fefefe;
+    font-weight: 500;
+    font-size: 45px;
+    color: #60e0f1;
+}
+
+.Title-Container h2 {
+    color: #fefefe;
+    font-weight: 300;
+    font-size: 30px;
+}
+
+.Nav {
+    height: 100%;
+    width: 40%;
+}
+
+.Nav-Container {
+    height: 100%;
+    width: 100%;
+}
+
+.Nav-BTN {
+    height: 100%;
+    width: 30%;
+    background-color: transparent;
+    border: none;
+    color: #60e0f1;
+    font-weight: 400;
+    font-size: 30px;
+    background-color: #303030;
+}
+
+.Nav-BTN:hover {
+    color: white;
+    transition: 200ms;
+}
+
+.Search {
+    height: 100%;
+    width: 40%;
+}
+
+.Search-Container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.Search-Container input {
+    width: 80%;
+    height: 50%;
+    background-color: #303030;
+    color: #fefefe;
+    font-weight: 300;
+    font-size: 30px;
+    border-radius: 30px;
+    padding: 5px;
+}
+
+.Banner {
+    width: 100vw;
+    height: 70vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)), url('../Images/Banner.jpg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    padding: 2vh;
+}
+
+.Banner-Container {
+    width: 100%;
+    height: 100%;
+} 
+
+.Banner-Content {
+    margin-left: 2vw;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.Banner-Genre {
+    background-color: #212121;
+    width: fit-content;
+    display: inline-block;
+    padding: 10px;
+
+}
+
+.Banner-Genre h1 {
+    color: #ffffff;
+    font-weight: 300;
+    font-size: 40px;
+}
+
+.Banner-Header h1 {
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 50px;
+}
+
+.Banner-Header h2 {
+    color: #60e0f1;
+    font-weight: 500;
+    font-size: 50px;
+}
+
+.Banner-Text p {
+    font-weight: 300;
+    color: #ffffff;
+    font-size: 35px;
+    max-width: 75%;
+}
+
+.Read-BTN {
+    margin-top: 30px;
+    background-color: #60e0f1;
+    color: #ffffff;
+    font-size: 30px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.Read-BTN:hover {
+    color: #ffffff;
+    background-color: #303030;
+    transition: 200ms;
+}
+
+.Banner-Special {
+    margin-top: 40px;
+}
+
+
+
+
+.Episodes {
+    background-color: #212121;
+    width: 100vw;
+    padding: 1vh;
+}
+
+.Episodes-Container {
+    width: 100%;
+}
+
+.Episodes-Container h1 {
+    color: #60e0f1;
+    font-weight: 400;
+    font-size: 50px;
+}
